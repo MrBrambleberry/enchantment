@@ -1,0 +1,1 @@
+A coding kata around enchantments
