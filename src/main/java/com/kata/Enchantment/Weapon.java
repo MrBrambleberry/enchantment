@@ -35,4 +35,16 @@ public class Weapon {
                 + "\r\n" + this.attackSpeed + " attack speed";
 
     }
+
+    public void resetEnchantment() {
+        this.enchantment = null;
+    }
+
+    public void applyEnchantment(Enchantment enchantment) {
+        this.enchantment = enchantment;
+    }
+
+    public Enchantment getEnchantment() {
+        return this.enchantment;
+    }
 }
